@@ -1,0 +1,45 @@
+#uls {
+	width: 70%;
+	justify-content: space-around;
+}
+
+#uls, #navBar, #contact {
+  display: inline-flex;
+	margin: 1%;
+}
+
+#navBar, #contact {
+	padding: 5px;
+	font-size: 18px;
+}
+
+#Logo {
+  width: 7%;
+	height: 7%;
+	margin: 1%;
+}
+
+.lis {
+	margin: 10px;
+}
+
+header {
+  width: 95%;
+  display: flex;
+	justify-content: space-around;
+	text-align: center;
+ 	background-color: #8CC54B;
+	margin: auto;
+	margin-top: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: white;
+	text-decoration: underline;
+	font-size: 20px;
+}
