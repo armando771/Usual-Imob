@@ -14,13 +14,24 @@
 }
 
 #Logo {
-  width: 7%;
-	height: 7%;
-	margin: 1%;
+  width: 9%;
+	height: 9%;
 }
 
 .lis {
 	margin: 10px;
+}
+
+
+.LinkHeader {
+	text-decoration: none;
+	color: black;
+}
+
+.LinkHeader:hover {
+	color: white;
+	text-decoration: underline;
+	font-size: 20px;
 }
 
 header {
@@ -28,18 +39,7 @@ header {
   display: flex;
 	justify-content: space-around;
 	text-align: center;
- 	background-color: #8CC54B;
+	background-color: #8CC54B;
 	margin: auto;
 	margin-top: 10px;
-}
-
-a {
-	text-decoration: none;
-	color: black;
-}
-
-a:hover {
-	color: white;
-	text-decoration: underline;
-	font-size: 20px;
 }

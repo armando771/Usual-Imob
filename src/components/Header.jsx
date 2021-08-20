@@ -9,10 +9,10 @@ function Header() {
       <img src={ Logo } alt='Logo Usual' id="Logo" />
       <div id="uls">
         <ul id='navBar' type='none'>
-          <li className="lis"><Link to="/">Home</Link></li>
-          <li className="lis"><Link to="/aluguel">Aluguel</Link></li>
-          <li className="lis"><Link to="/venda">Venda</Link></li>
-          <li className="lis"><Link to="/sobre">Sobre a Usual</Link></li>
+          <li className="lis"><Link className="LinkHeader" to="/">Home</Link></li>
+          <li className="lis"><Link className="LinkHeader" to="/aluguel">Aluguel</Link></li>
+          <li className="lis"><Link className="LinkHeader" to="/venda">Venda</Link></li>
+          <li className="lis"><Link className="LinkHeader" to="/sobre">Sobre a Usual</Link></li>
           </ul>
         <ul id="contact" type='none'>
           <li className="lis">contato@usualimob.com</li>
