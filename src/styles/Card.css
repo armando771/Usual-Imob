@@ -8,6 +8,12 @@
   width: 20%;
   margin: 20px;
   padding: 5px;
+  box-shadow: 0 0 1em black;
+}
+
+.card:hover {
+  transform: scale(1.1, 1.2);
+  transform-origin: center;
 }
 
 .imagem img {
