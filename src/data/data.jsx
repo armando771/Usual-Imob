@@ -48,7 +48,7 @@ const data = [
     id: 2,
     name: 'Casa-Elizandro-02',
     type: 'Casa',
-    adress: {
+    address: {
       endress: 'Oscavo Lobato, Ressaca-Contagem',
       street: 'Oscavo Lobato',
       bairro: 'Ressaca',

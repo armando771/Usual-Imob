@@ -11,7 +11,7 @@ import foto10 from './15.jpg';
 import foto11 from './16.jpg';
 import foto12 from './18.jpg';
 import foto13 from './19.jpg';
-import foto14 from './.jpg';
+import foto14 from './20.jpg';
 
 const fotosRubi = {
   foto1,
