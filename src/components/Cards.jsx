@@ -4,10 +4,7 @@ import placeholder from "../images/placeholder.png"
 import home from "../images/home.png"
 import car from "../images/car.png"
 import "../styles/Card.css";
-<<<<<<< HEAD
-=======
 import MyContext from '../context/MyContext';
->>>>>>> f4b506067103c257e56112ff84171fc8714e4491
 
 function Cards() {
   const { immobile } = useContext(MyContext);

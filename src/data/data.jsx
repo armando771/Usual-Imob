@@ -3,6 +3,7 @@ import fotosOscavo from '../images/FotosIMoveis/Oscavo';
 import ApartamentoNacional2 from '../images/FotosIMoveis/ApartamentoNacional2';
 import fotosElizandro from '../images/FotosIMoveis/CasaElizandro02';
 import fotosAlecio from '../images/FotosIMoveis/EspaçoComercialAlecio';
+import EspacoComercialCabral from '../images/FotosIMoveis/EspacoComercialCabral';
 
 const data = [
   {
@@ -86,6 +87,24 @@ const data = [
   },
   images: [
     fotosAlecio,
+  ]
+},
+{
+  id: 6,
+  name: 'Espaço-comercial-Cabral',
+  type: 'Comercial',
+  address: {
+    Endress: '',
+    street: '',
+    bairro: '',
+    city: '',
+  },
+  price: '',
+  details: {
+    rooms: null,
+  },
+  images: [
+    EspacoComercialCabral,
   ]
 }
 ];
