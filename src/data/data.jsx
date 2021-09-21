@@ -82,6 +82,7 @@ const data = [
   price: 5000.00,
   details: {
     rooms: null,
+    dimensions: ''
   },
   images: [
     fotosAlecio,
