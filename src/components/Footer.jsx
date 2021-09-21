@@ -10,11 +10,11 @@ function Footer() {
     <footer id="Footer-Main-Container">
       <div id="Footer-Container">
         <section id="section-hour">
-          <p id="section-hour-p"><img className="footer-images" src={clock} alt="clock-icon_icone-de-relogio" /> Horário de Funcionamento</p>
+          <p id="section-hour-p"><img className="footer-images" src={ clock } alt="clock-icon_icone-de-relogio" /> Horário de Funcionamento</p>
           <p id="section-hour-info">Segunda á Sexta 08h ás 18h </p>
         </section>
         <section id="section-adress">
-        <p id="section-adress-p"><img className="footer-images" src={adress} alt="adress-icon_icone-de-endereço"/>Endereço:</p>
+        <p id="section-adress-p"><img className="footer-images" id="adress-picture" src={adress} alt="adress-icon_icone-de-endereço"/>Endereço:</p>
           <span id="section-adress-street">Rua Extrema, 456, Guanabara, Contagem-MG</span>
         </section>
         <section id="section-social">

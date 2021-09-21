@@ -3,10 +3,10 @@ import '../styles/HomePage.css';
 
 function FilterHome() {
   return (
-    <nav id='FilterContainer' className="navbar navbar-expand-sm justify-content-center">
-      <div className='d-flex fw-bold'>
+    <nav id='FilterContainer' className="navbar">
+      <div id="FilterContent" className='d-flex fw-bold'>
         <p className='text-uppercase' id='textFilter'>
-          Encontre o imóvel que é a sua cara
+          Encontre o imóvel <br /> que é a sua cara
         </p>
         <div id="inputsContainer">
           <label htmlFor='cidadeInput' className='inputsFilter'>
@@ -24,10 +24,10 @@ function FilterHome() {
               <option>Preço</option>
             </select>
           </label>
+        	<button type='button' className='btn btn-secondary btn-sm'>
+          	BUSCAR
+        	</button>
         </div>
-        <button type='button' className='btn btn-secondary btn-sm'>
-          BUSCAR
-        </button>
       </div>
     </nav>
   );

@@ -5,9 +5,11 @@ import HomePage from './pages/HomePage';
 import Rent from './pages/RentPage';
 import Sale from './pages/SalePage';
 import About from './pages/AboutUsual';
+import MyProvider from './provider/MyProvider';
 
 function App() {
   return (
+    <MyProvider>
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={ HomePage } />
@@ -16,6 +18,7 @@ function App() {
         <Route exact path="/sobre" component={ About } />
       </Switch>
     </BrowserRouter>
+    </MyProvider>
   );
 }
 
