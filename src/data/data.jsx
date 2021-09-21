@@ -1,63 +1,74 @@
 import fotosAndresaLeonardo from '../images/FotosIMoveis/AndresaLeonardo';
+import fotosOscavo from '../images/FotosIMoveis/Oscavo';
 import ApartamentoNacional2 from '../images/FotosIMoveis/ApartamentoNacional2';
 import fotosElizandro from '../images/FotosIMoveis/CasaElizandro02';
 import fotosAlecio from '../images/FotosIMoveis/EspaçoComercialAlecio';
 
 const data = [
-{
-  id: 0,
-  name: 'Andreza-Leonardo',
-  type: 'Apartamento',
-  address: {
-    Endress: 'Juventino dias, Ressaca-Contagem',
-    street: 'Juventino dias',
-    bairro: 'Ressaca',
-    city: 'Contagem',
+  {
+    id: 0,
+    name: 'Andreza-Leonardo',
+    type: 'Apartamento',
+    address: {
+      endress: 'Juventino dias, Ressaca-Contagem',
+      street: 'Juventino dias',
+      bairro: 'Ressaca',
+      city: 'Contagem',
+    },
+    price: 1500.0,
+    details: {
+      rooms: 3,
+    },
+    images: [fotosAndresaLeonardo],
   },
-  price: 1500.00,
-  details: {
-    rooms: 3,
+  {
+    id: 1,
+    name: 'Casa Oscavo Lobato com terraço',
+    type: 'Casa',
+    address: {
+      Endress: 'Oscavo lobato, Ressaca-Contagem',
+      street: 'Oscavo lobato',
+      bairro: 'Ressaca',
+      city: 'Contagem',
+    },
+    price: 2500.0,
+    details: {
+      rooms: 3,
+    },
+    images: [fotosOscavo],
   },
-  images: [
-    fotosAndresaLeonardo,
-  ]
-},
-{
+  {
     id: 2,
     name: 'Casa-Elizandro-02',
     type: 'Casa',
-    address: {
+    adress: {
       Endress: 'Oscavo Lobato, Ressaca-Contagem',
       street: 'Oscavo Lobato',
       bairro: 'Ressaca',
       city: 'Contagem',
     },
-    price: 800.00,
+    price: 800.0,
     details: {
       rooms: 2,
     },
-    images: [
-      fotosElizandro,
-    ]
-},
-{
-  id: 3,
-  name: 'ApartamentoNacional2',
-  type: 'Apartamento',
-  address:{
-    endress: '',
-    street: '',
-    bairro: 'Nacional',
-    city: 'Contagem'
+    images: [fotosElizandro],
   },
-  price: 900.00,
-  details: {
-    rooms: '',
+  {
+    id: 3,
+    name: 'ApartamentoNacional2',
+    type: 'Apartamento',
+    address: {
+      endress: '',
+      street: '',
+      bairro: 'Nacional',
+      city: 'Contagem',
+    },
+    price: 900.0,
+    details: {
+      rooms: '',
+    },
+    images: [ApartamentoNacional2],
   },
-  images: [
-    ApartamentoNacional2,
-  ]
-},
 {
   id: 4,
   name: 'Loja-Alécio',

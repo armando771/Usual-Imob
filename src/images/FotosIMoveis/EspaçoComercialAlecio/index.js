@@ -8,9 +8,6 @@ const fotosAlecio = {
   foto2,
   foto3,
   foto4,
-  foto5,
-  foto6,
-  foto7,
 }
 
 export default fotosAlecio;
