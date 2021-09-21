@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import casa from "../images/casa.jpg";
 import placeholder from "../images/placeholder.png"
 import home from "../images/home.png"
 import car from "../images/car.png"
 import "../styles/Card.css";
-
+import MyContext from '../context/MyContext';
 
 function Cards() {
+  const { immobile } = useContext(MyContext);
 	return(
     <div className="cards">
       <div className="card">
