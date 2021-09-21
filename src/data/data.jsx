@@ -20,9 +20,10 @@ const data = [
       bairro: 'Ressaca',
       city: 'Contagem',
     },
-    price: 1500.00,
+    price: 1500.0,
     details: {
       rooms: 3,
+      garage: null,
     },
     images: [fotosAndresaLeonardo],
   },
@@ -36,9 +37,10 @@ const data = [
       bairro: 'Ressaca',
       city: 'Contagem',
     },
-    price: 2500.00,
+    price: 2500.0,
     details: {
       rooms: 3,
+      garage: null,
     },
     images: [fotosOscavo],
   },
@@ -52,15 +54,16 @@ const data = [
       bairro: 'Ressaca',
       city: 'Contagem',
     },
-    price: 800.00,
+    price: 800.0,
     details: {
       rooms: 2,
+      garage: null,
     },
     images: [fotosElizandro],
   },
   {
     id: 3,
-    name: 'Apartamento-Nacional2',
+    name: 'Apartamento-Nacional-2',
     type: 'Apartamento',
     address: {
       endress: '',
@@ -68,9 +71,10 @@ const data = [
       bairro: 'Nacional',
       city: 'Contagem',
     },
-    price: 900.00,
+    price: 900.0,
     details: {
       rooms: '',
+      garage: null,
     },
     images: [ApartamentoNacional2],
   },
@@ -84,9 +88,10 @@ const data = [
       bairro: '',
       city: '',
     },
-    price: 5000.00,
+    price: 5000.0,
     details: {
       rooms: null,
+      garage: null,
     },
     images: [fotosAlecio],
   },
@@ -100,7 +105,7 @@ const data = [
       bairro: 'Arvoredo',
       city: 'Contagem',
     },
-    price: 800.00,
+    price: 800.0,
     details: {
       rooms: 2,
       garage: null,
@@ -120,66 +125,61 @@ const data = [
     price: '',
     details: {
       rooms: null,
+      garage: null,
     },
-    images: [
-      EspacoComercialCabral,
-    ]
+    images: [EspacoComercialCabral],
+  },
+  {
+    id: 7,
+    name: 'Lojas-Cabral',
+    type: 'Comercial',
+    address: {
+      Endress: '',
+      street: '',
+      bairro: 'Cabral',
+      city: '',
+    },
+    price: 5000,
+    details: {
+      rooms: null,
+      garage: null,
+    },
+    images: [fotosLojasCabral],
   },
 {
-  id: 7,
-  name: 'Lojas-Cabral',
-  type: 'Comercial',
-  address: {
-    endress: '',
-    street: '',
-    bairro: 'Cabral',
-    city: '',
+    id: 8,
+    name: 'Rua-Rubi',
+    type: 'Casa',
+    address: {
+      endress: 'Rubi, Arvoredo-Contagem',
+      street: 'Rubi',
+      bairro: 'Arvoredo',
+      city: 'Contagem',
+    },
+    price: 900.0,
+    details: {
+      rooms: 2,
+      garage: null,
+    },
+    images: [fotosRubi],
   },
-  price: 5000.00,
-  details: {
-    rooms: null,
+  {
+    id: 9,
+    name: 'Quitinete2',
+    type: 'Apartamento',
+    address: {
+      endress: '',
+      street: 'AV. Fernão Dias',
+      bairro: 'Laguna',
+      city: 'Contagem',
+    },
+    price: 750.0,
+    details: {
+      rooms: null,
+      garage: null,
+    },
+    images: [Quitinete2],
   },
-  images: [
-    fotosLojasCabral,
-  ]
-},
-{
-  id: 8,
-  name: 'Rua-Rubi',
-  type: 'Casa',
-  address: {
-    endress: 'Rubi, Arvoredo-Contagem',
-    street: 'Rubi',
-    bairro: 'Arvoredo',
-    city: 'Contagem',
-  },
-  price: 900.00,
-  details: {
-    rooms: 2,
-    garage: null,
-  },
-  images: [
-    fotosRubi,
-  ]
-},
-{
-  id: 9,
-  name: 'Quitinete-2',
-  type: 'Apartamento',
-  address: {
-    endress: '',
-    street: 'AV. Fernão Dias',
-    bairro: 'Laguna',
-    city: 'Contagem',
-  },
-  price: 750.00,
-  details: {
-    rooms: null,
-  },
-  images: [
-    Quitinete2,
-  ]
-},
 ];
 
 export default data;
