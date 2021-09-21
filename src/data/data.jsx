@@ -3,7 +3,9 @@ import fotosOscavo from '../images/FotosIMoveis/Oscavo';
 import ApartamentoNacional2 from '../images/FotosIMoveis/ApartamentoNacional2';
 import fotosElizandro from '../images/FotosIMoveis/CasaElizandro02';
 import fotosAlecio from '../images/FotosIMoveis/EspaçoComercialAlecio';
+import fotosGG from '../images/FotosIMoveis/RuaGG';
 import EspacoComercialCabral from '../images/FotosIMoveis/EspacoComercialCabral';
+import fotosLojasCabral from '../images/FotosIMoveis/LojasCabral';
 
 const data = [
   {
@@ -70,43 +72,75 @@ const data = [
     },
     images: [ApartamentoNacional2],
   },
-{
-  id: 4,
-  name: 'Loja-Alécio',
-  type: 'Comercial',
-  address: {
-    Endress: '',
-    street: '',
-    bairro: '',
-    city: '',
+  {
+    id: 4,
+    name: 'Loja-Alécio',
+    type: 'Comercial',
+    address: {
+      Endress: '',
+      street: '',
+      bairro: '',
+      city: '',
+    },
+    price: 5000.0,
+    details: {
+      rooms: null,
+    },
+    images: [fotosAlecio],
   },
-  price: 5000.00,
-  details: {
-    rooms: null,
-    dimensions: ''
+  {
+    id: 5,
+    name: 'Rua GG',
+    type: 'Apartamento',
+    address: {
+      Endress: 'GG, Arvoredo-Contagem',
+      street: 'GG',
+      bairro: 'Arvoredo',
+      city: 'Contagem',
+    },
+    price: 800.0,
+    details: {
+      rooms: 2,
+      garage: null,
+    },
+    images: [fotosGG],
   },
-  images: [
-    fotosAlecio,
-  ]
-},
-{
-  id: 6,
-  name: 'Espaço-comercial-Cabral',
-  type: 'Comercial',
-  address: {
-    Endress: '',
-    street: '',
-    bairro: '',
-    city: '',
+  {
+    id: 6,
+    name: 'Espaço-comercial-Cabral',
+    type: 'Comercial',
+    address: {
+      Endress: '',
+      street: '',
+      bairro: '',
+      city: '',
+    },
+    price: '',
+    details: {
+      rooms: null,
+    },
+    images: [
+      EspacoComercialCabral,
+    ]
   },
-  price: '',
-  details: {
-    rooms: null,
-  },
-  images: [
-    EspacoComercialCabral,
-  ]
-}
+  {
+    id: 7,
+    name: 'Lojas-Cabral',
+    type: 'Comercial',
+    address: {
+      Endress: '',
+      street: '',
+      bairro: 'Cabral',
+      city: '',
+    },
+    price: 5000,
+    details: {
+      rooms: null,
+    },
+    images: [
+      fotosLojasCabral,
+    ]
+  }
 ];
 
 export default data;
