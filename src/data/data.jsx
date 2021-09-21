@@ -6,6 +6,7 @@ import fotosAlecio from '../images/FotosIMoveis/EspaçoComercialAlecio';
 import fotosGG from '../images/FotosIMoveis/RuaGG';
 import EspacoComercialCabral from '../images/FotosIMoveis/EspacoComercialCabral';
 import fotosRubi from '../images/FotosIMoveis/RuaRubi';
+import fotosLojasCabral from '../images/FotosIMoveis/LojasCabral';
 
 const data = [
   {
@@ -121,6 +122,24 @@ const data = [
     },
     images: [
       EspacoComercialCabral,
+    ]
+  },
+  {
+    id: 7,
+    name: 'Lojas-Cabral',
+    type: 'Comercial',
+    address: {
+      Endress: '',
+      street: '',
+      bairro: 'Cabral',
+      city: '',
+    },
+    price: 5000,
+    details: {
+      rooms: null,
+    },
+    images: [
+      fotosLojasCabral,
     ]
   },
   {
