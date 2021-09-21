@@ -5,6 +5,7 @@ import fotosElizandro from '../images/FotosIMoveis/CasaElizandro02';
 import fotosAlecio from '../images/FotosIMoveis/EspaçoComercialAlecio';
 import fotosGG from '../images/FotosIMoveis/RuaGG';
 import EspacoComercialCabral from '../images/FotosIMoveis/EspacoComercialCabral';
+import fotosRubi from '../images/FotosIMoveis/RuaRubi';
 
 const data = [
   {
@@ -121,7 +122,26 @@ const data = [
     images: [
       EspacoComercialCabral,
     ]
-  }
+  },
+  {
+    id: 8,
+    name: 'Rua Rubi',
+    type: 'Casa',
+    address: {
+      Endress: 'Rubi, Arvoredo-Contagem',
+      street: 'Rubi',
+      bairro: 'Arvoredo',
+      city: 'Contagem',
+    },
+    price: 900.00,
+    details: {
+      rooms: 2,
+      garage: null,
+    },
+    images: [
+      fotosRubi,
+    ]
+  },
 ];
 
 export default data;
