@@ -2,6 +2,7 @@ import fotosAndresaLeonardo from '../images/FotosIMoveis/AndresaLeonardo';
 import fotosOscavo from '../images/FotosIMoveis/Oscavo';
 import ApartamentoNacional2 from '../images/FotosIMoveis/ApartamentoNacional2';
 import fotosElizandro from '../images/FotosIMoveis/CasaElizandro02';
+import fotosAlecio from '../images/FotosIMoveis/EspaçoComercialAlecio';
 
 const data = [
   {
@@ -68,6 +69,24 @@ const data = [
     },
     images: [ApartamentoNacional2],
   },
+{
+  id: 4,
+  name: 'Loja-Alécio',
+  type: 'Comercial',
+  address: {
+    Endress: '',
+    street: '',
+    bairro: '',
+    city: '',
+  },
+  price: 5000.00,
+  details: {
+    rooms: null,
+  },
+  images: [
+    fotosAlecio,
+  ]
+}
 ];
 
 export default data;
