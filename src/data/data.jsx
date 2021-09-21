@@ -4,6 +4,7 @@ import ApartamentoNacional2 from '../images/FotosIMoveis/ApartamentoNacional2';
 import fotosElizandro from '../images/FotosIMoveis/CasaElizandro02';
 import fotosAlecio from '../images/FotosIMoveis/EspaçoComercialAlecio';
 import EspacoComercialCabral from '../images/FotosIMoveis/EspacoComercialCabral';
+import Quitinete2 from '../images/FotosIMoveis/Quitinete2';
 
 const data = [
   {
@@ -99,6 +100,24 @@ const data = [
     city: '',
   },
   price: '',
+  details: {
+    rooms: null,
+  },
+  images: [
+    EspacoComercialCabral,
+  ]
+},
+{
+  id: 9,
+  name: 'Quitinete2',
+  type: 'Apartamento',
+  address: {
+    Endress: '',
+    street: 'AV. Fernão Dias',
+    bairro: 'Laguna',
+    city: 'Contagem',
+  },
+  price: 750,
   details: {
     rooms: null,
   },
