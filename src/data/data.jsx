@@ -22,6 +22,7 @@ const data = [
     price: 1500.0,
     details: {
       rooms: 3,
+      garage: null,
     },
     images: [fotosAndresaLeonardo],
   },
@@ -38,6 +39,7 @@ const data = [
     price: 2500.0,
     details: {
       rooms: 3,
+      garage: null,
     },
     images: [fotosOscavo],
   },
@@ -54,6 +56,7 @@ const data = [
     price: 800.0,
     details: {
       rooms: 2,
+      garage: null,
     },
     images: [fotosElizandro],
   },
@@ -70,6 +73,7 @@ const data = [
     price: 900.0,
     details: {
       rooms: '',
+      garage: null,
     },
     images: [ApartamentoNacional2],
   },
@@ -86,6 +90,7 @@ const data = [
     price: 5000.0,
     details: {
       rooms: null,
+      garage: null,
     },
     images: [fotosAlecio],
   },
@@ -119,6 +124,7 @@ const data = [
     price: '',
     details: {
       rooms: null,
+      garage: null,
     },
     images: [
       EspacoComercialCabral,
@@ -137,6 +143,7 @@ const data = [
     price: 5000,
     details: {
       rooms: null,
+      garage: null,
     },
     images: [
       fotosLojasCabral,
