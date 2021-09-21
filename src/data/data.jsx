@@ -164,7 +164,7 @@ const data = [
 },
 {
   id: 9,
-  name: 'Quitinete2',
+  name: 'Quitinete-2',
   type: 'Apartamento',
   address: {
     endress: '',
