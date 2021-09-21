@@ -5,6 +5,7 @@ import fotosElizandro from '../images/FotosIMoveis/CasaElizandro02';
 import fotosAlecio from '../images/FotosIMoveis/EspaçoComercialAlecio';
 import fotosGG from '../images/FotosIMoveis/RuaGG';
 import EspacoComercialCabral from '../images/FotosIMoveis/EspacoComercialCabral';
+import Quitinete2 from '../images/FotosIMoveis/Quitinete2';
 import fotosRubi from '../images/FotosIMoveis/RuaRubi';
 import fotosLojasCabral from '../images/FotosIMoveis/LojasCabral';
 
@@ -28,10 +29,10 @@ const data = [
   },
   {
     id: 1,
-    name: 'Casa Oscavo Lobato com terraço',
+    name: 'Casa-Oscavo-Lobato-com-terraço',
     type: 'Casa',
     address: {
-      Endress: 'Oscavo lobato, Ressaca-Contagem',
+      endress: 'Oscavo lobato, Ressaca-Contagem',
       street: 'Oscavo lobato',
       bairro: 'Ressaca',
       city: 'Contagem',
@@ -48,7 +49,7 @@ const data = [
     name: 'Casa-Elizandro-02',
     type: 'Casa',
     adress: {
-      Endress: 'Oscavo Lobato, Ressaca-Contagem',
+      endress: 'Oscavo Lobato, Ressaca-Contagem',
       street: 'Oscavo Lobato',
       bairro: 'Ressaca',
       city: 'Contagem',
@@ -62,7 +63,7 @@ const data = [
   },
   {
     id: 3,
-    name: 'ApartamentoNacional2',
+    name: 'Apartamento-Nacional2',
     type: 'Apartamento',
     address: {
       endress: '',
@@ -82,7 +83,7 @@ const data = [
     name: 'Loja-Alécio',
     type: 'Comercial',
     address: {
-      Endress: '',
+      endress: '',
       street: '',
       bairro: '',
       city: '',
@@ -96,10 +97,10 @@ const data = [
   },
   {
     id: 5,
-    name: 'Rua GG',
+    name: 'Rua-GG',
     type: 'Apartamento',
     address: {
-      Endress: 'GG, Arvoredo-Contagem',
+      endress: 'GG, Arvoredo-Contagem',
       street: 'GG',
       bairro: 'Arvoredo',
       city: 'Contagem',
@@ -116,7 +117,7 @@ const data = [
     name: 'Espaço-comercial-Cabral',
     type: 'Comercial',
     address: {
-      Endress: '',
+      endress: '',
       street: '',
       bairro: '',
       city: '',
@@ -126,9 +127,7 @@ const data = [
       rooms: null,
       garage: null,
     },
-    images: [
-      EspacoComercialCabral,
-    ]
+    images: [EspacoComercialCabral],
   },
   {
     id: 7,
@@ -145,28 +144,41 @@ const data = [
       rooms: null,
       garage: null,
     },
-    images: [
-      fotosLojasCabral,
-    ]
+    images: [fotosLojasCabral],
   },
   {
     id: 8,
-    name: 'Rua Rubi',
+    name: 'Rua-Rubi',
     type: 'Casa',
     address: {
-      Endress: 'Rubi, Arvoredo-Contagem',
+      endress: 'Rubi, Arvoredo-Contagem',
       street: 'Rubi',
       bairro: 'Arvoredo',
       city: 'Contagem',
     },
-    price: 900.00,
+    price: 900.0,
     details: {
       rooms: 2,
       garage: null,
     },
-    images: [
-      fotosRubi,
-    ]
+    images: [fotosRubi],
+  },
+  {
+    id: 9,
+    name: 'Quitinete2',
+    type: 'Apartamento',
+    address: {
+      endress: '',
+      street: 'AV. Fernão Dias',
+      bairro: 'Laguna',
+      city: 'Contagem',
+    },
+    price: 750.0,
+    details: {
+      rooms: null,
+      garage: null,
+    },
+    images: [Quitinete2],
   },
 ];
 
