@@ -4,6 +4,7 @@ import ApartamentoNacional2 from '../images/FotosIMoveis/ApartamentoNacional2';
 import fotosElizandro from '../images/FotosIMoveis/CasaElizandro02';
 import fotosAlecio from '../images/FotosIMoveis/EspaçoComercialAlecio';
 import fotosGG from '../images/FotosIMoveis/RuaGG';
+import EspacoComercialCabral from '../images/FotosIMoveis/EspacoComercialCabral';
 
 const data = [
   {
@@ -103,6 +104,24 @@ const data = [
     },
     images: [fotosGG],
   },
+  {
+    id: 6,
+    name: 'Espaço-comercial-Cabral',
+    type: 'Comercial',
+    address: {
+      Endress: '',
+      street: '',
+      bairro: '',
+      city: '',
+    },
+    price: '',
+    details: {
+      rooms: null,
+    },
+    images: [
+      EspacoComercialCabral,
+    ]
+  }
 ];
 
 export default data;
