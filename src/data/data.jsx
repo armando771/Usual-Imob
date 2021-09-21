@@ -1,12 +1,13 @@
 import fotosAndresaLeonardo from '../images/FotosIMoveis/AndresaLeonardo';
 import fotosElizandro from '../images/FotosIMoveis/CasaElizandro02';
+import fotosAlecio from '../images/FotosIMoveis/EspaçoComercialAlecio';
 
 const data = [
 {
   id: 0,
   name: 'Andreza-Leonardo',
   type: 'Apartamento',
-  adress: {
+  address: {
     Endress: 'Juventino dias, Ressaca-Contagem',
     street: 'Juventino dias',
     bairro: 'Ressaca',
@@ -24,7 +25,7 @@ const data = [
   id: 2,
   name: 'Casa-Elizandro-02',
   type: 'Casa',
-  adress: {
+  address: {
     Endress: 'Oscavo Lobato, Ressaca-Contagem',
     street: 'Oscavo Lobato',
     bairro: 'Ressaca',
@@ -36,6 +37,24 @@ const data = [
   },
   images: [
     fotosElizandro,
+  ]
+},
+{
+  id: 4,
+  name: 'Loja-Alécio',
+  type: 'Comercial',
+  address: {
+    Endress: '',
+    street: '',
+    bairro: '',
+    city: '',
+  },
+  price: 5000.00,
+  details: {
+    rooms: null,
+  },
+  images: [
+    fotosAlecio,
   ]
 }
 ];
