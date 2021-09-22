@@ -12,11 +12,11 @@ function Footer() {
 
         <section className="section-hour">
           <p><img className="footer-images" src={ clock } alt="clock-icon_icone-de-relogio" /> Horário de Funcionamento</p>
-          <p>Segunda á Sexta 08h ás 18h </p> </section>
+          <p id="hour-day-info">Segunda á Sexta 08h ás 18h </p> </section>
 
         <section className="section-adress">
           <p><img className="footer-images" id="adress-picture" src={adress} alt="adress-icon_icone-de-endereço"/>Endereço:</p>
-          <p>Rua Extrema, 456, Guanabara, Contagem-MG</p> </section>
+          <p id="address-street"><span id="address-street1">Rua Extrema, 456,</span><span>Guanabara, Contagem-MG</span></p> </section>
 
         <section id="section-social">
           <a rel="noreferrer" href="https://www.facebook.com/usualempreendimentosimobiliarios" target="_blank"> <img className="social-images" src={ facebook } alt="facebook-logo"/> </a>
