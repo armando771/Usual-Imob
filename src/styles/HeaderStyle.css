@@ -1,25 +1,29 @@
 #uls {
-	width: 70%;
-	justify-content: space-around;
+  width: 80%;
+	height: 100%;
+  justify-content: space-around;
+	align-items: center;
 }
 
 #uls, #navBar, #contact {
   display: inline-flex;
-	margin: 1%;
 }
 
 #navBar, #contact {
-	padding: 5px;
-	font-size: 18px;
+	width: 50%;
+	height: auto;
+  font-size: 18px;
+	margin: 0;
 }
 
 #Logo {
-  width: 9%;
-	height: 9%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .lis {
-	margin: 10px;
+	margin-left: 1%;
+	margin-right: 1%;
 }
 
 
@@ -35,11 +39,9 @@
 }
 
 header {
-  width: 95%;
+  width: 100%;
+	height: 80px;
   display: flex;
-	justify-content: space-around;
-	text-align: center;
+	justify-content: space-evenly;
 	background-color: #8CC54B;
-	margin: auto;
-	margin-top: 10px;
 }
