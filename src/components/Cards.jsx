@@ -12,7 +12,7 @@ function Cards() {
 	return(
      <div className="cards">
        {
-         immobile.map((imob) => <Card imob={ imob }/>)
+         immobile.map((imob, index) => <Card key={ index } imob={ imob }/>)
        }
      </div>
   );
