@@ -2,6 +2,7 @@ import React from "react";
 import placeholder from "../images/placeholder.png"
 import home from "../images/home.png"
 import car from "../images/car.png"
+import dollar from "../images/dollar.png"
 import "../styles/Card.css";
 
 function Card(props) {
@@ -24,14 +25,15 @@ function Card(props) {
       </div>
       <div className="info">
         <h2>Aluguel</h2>
-        <p>
-          <img src={placeholder} alt="adress" /> { endress }
-        </p>
+        <div className="address">
+          <img src={placeholder} alt="adress" /> 
+          <p> { endress }</p>
+        </div>
         <p>
           <img src={home} alt="home" /> { rooms }
         </p>
         <p><img src={car} alt="car" /> { garage }</p>
-        <p>Preço:{ price }</p>
+        <p><img src={dollar} alt="money" />   R$ { price }</p>
       </div>
     </div>
   );
