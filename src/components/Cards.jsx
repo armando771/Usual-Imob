@@ -8,11 +8,11 @@ import MyContext from '../context/MyContext';
 import Card from "./Card";
 
 function Cards() {
-  const { immobile } = useContext(MyContext);
+  const { filterImmobiles } = useContext(MyContext);
 	return(
      <div className="cards">
        {
-         immobile.map((imob, index) => <Card key={ index } imob={ imob }/>)
+         filterImmobiles.map((imob, index) => <Card key={ index } imob={ imob }/>)
        }
      </div>
   );

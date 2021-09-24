@@ -137,7 +137,7 @@ const data = [
       Endress: '',
       street: '',
       bairro: 'Cabral',
-      city: '',
+      city: 'Contagem',
     },
     price: 5000,
     details: {

@@ -1,15 +1,12 @@
 import React from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import FilterSale from '../components/FilterSale';
-import Cards from '../components/Cards';
 
 function Sale() {
   return (
     <main>
       <Header />
-      <FilterSale />
-      <Cards />
+      <h1 className="text-center"><b>EM BREVE</b></h1>
       <Footer />
     </main>
   );

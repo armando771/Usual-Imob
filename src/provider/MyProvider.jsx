@@ -4,10 +4,13 @@ import data from '../data/data';
 
 function MyProvider({ children }) {
 const [immobile, Setimmobile] = useState(data);
+const [filterImmobiles, setFilterImmobiles] = useState(data);
 
 const context = {
   immobile,
   Setimmobile,
+  filterImmobiles,
+  setFilterImmobiles
 };
 
 return (
