@@ -6,13 +6,16 @@ import React, { useContext } from "react";
 import "../styles/Card.css";
 import MyContext from '../context/MyContext';
 import Card from "./Card";
+import ImobileNotFound from "./ImobileNotFound";
 
 function Cards() {
   const { filterImmobiles } = useContext(MyContext);
+  console.log(filterImmobiles)
 	return(
      <div className="cards">
        {
-         filterImmobiles.map((imob, index) => <Card key={ index } imob={ imob }/>)
+         filterImmobiles.length === 0 ? <ImobileNotFound/> :
+         filterImmobiles.map((imob, index) =>  <Card key={ index } imob={ imob }/>)
        }
      </div>
   );
