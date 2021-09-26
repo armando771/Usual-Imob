@@ -6,6 +6,7 @@ function FilterHome() {
   const [rooms, setRooms] = useState(1);
   const [city, setCity] = useState('Contagem');
   const [price, setPrice] = useState(0);
+  const [type, setType] = useState('Apartamento');
   const { immobile, setFilterImmobiles } = useContext(MyContext);
 
   const onClick = () => {
@@ -14,7 +15,8 @@ function FilterHome() {
     if (Number(price) > 0) {
       newImmobiles = newImmobiles.filter((immobile) => immobile.price <= Number(price));
     }
-    newImmobiles = newImmobiles.filter((immobile) => immobile.details.rooms > Number(rooms));
+    newImmobiles = newImmobiles.filter((immobile) => immobile.details.rooms >= Number(rooms));
+    newImmobiles = newImmobiles.filter((immobile) => immobile.type === type)
     setFilterImmobiles(newImmobiles);
   };
 
@@ -29,6 +31,9 @@ function FilterHome() {
       case 'price':
         setPrice(value);
         break;
+      case 'type':
+          setType(value);
+          break;
       default:
         break;
     }
@@ -41,6 +46,17 @@ function FilterHome() {
           Encontre o imóvel <br /> que é a sua cara
         </p>
         <div id='inputsContainer'>
+          <label htmlFor="typeinput"> 
+            <select
+            id="typeinput"
+            className='form-select'
+            onChange={(e) => handleChange(e, 'type')} 
+            >
+               <option value="Apartamento">Apartamento</option>
+               <option value="Casa">Casa</option>
+               <option value="Comercial">Comercial</option>
+            </select>
+          </label>
           <label htmlFor='cidadeInput' className='inputsFilter'>
             <select
               id='cidadeInput'
