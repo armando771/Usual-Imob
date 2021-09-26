@@ -19,3 +19,13 @@
   text-align: center;
   margin-right: 10px;
 }
+
+#preçoInput {
+  width: 70px;
+  height: 35px;
+}
+
+.valueTag {
+  margin-bottom: 0%;
+  text-align: center;
+}

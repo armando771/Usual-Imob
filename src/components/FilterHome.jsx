@@ -46,7 +46,8 @@ function FilterHome() {
           Encontre o imóvel <br /> que é a sua cara
         </p>
         <div id='inputsContainer'>
-          <label htmlFor="typeinput"> 
+          <label htmlFor="typeinput">
+            Tipo de imóvel:
             <select
             id="typeinput"
             className='form-select'
@@ -58,6 +59,7 @@ function FilterHome() {
             </select>
           </label>
           <label htmlFor='cidadeInput' className='inputsFilter'>
+            Cidade:
             <select
               id='cidadeInput'
               className='form-select'
@@ -69,6 +71,7 @@ function FilterHome() {
             </select>
           </label>
           <label htmlFor='quartosInput' className='inputsFilter'>
+            Nº de Quartos:
             <select
               id='quartosInput'
               className='form-select'
@@ -81,6 +84,7 @@ function FilterHome() {
             </select>
           </label>
           <label htmlFor='preçoInput' className='inputsFilter'>
+            <p className='valueTag'>Valor:</p>
             <input
               type='number'
               id='preçoInput'
