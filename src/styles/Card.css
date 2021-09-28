@@ -2,6 +2,7 @@
   display: inline-flex;
   justify-content: space-around;
   flex-flow: row wrap;
+  min-width: 100%;
 }
 
 .card {

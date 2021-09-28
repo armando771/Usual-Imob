@@ -32,8 +32,8 @@ function FilterHome() {
         setPrice(value);
         break;
       case 'type':
-          setType(value);
-          break;
+        setType(value);
+        break;
       default:
         break;
     }
